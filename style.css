@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    place-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    /* background: linear-gradient(to right, #03a9f4, #0c1ae4); */
+    background: linear-gradient(to right, #e4e007, #f16609);
+}
+
+.container{
+    height: 475px;
+    width: 400px;
+    background: url("images/table.png");
+    border-radius: 12px;
+    position: relative;
+     border: 3px solid black; 
+}
+
+h1{
+    color: goldenrod;
+    margin: 30px;
+    font-size: 45px;
+}
+
+p{
+    margin: 30px;
+    font-size: 22px;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+button{
+    color: #016f32;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    background: goldenrod;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+#player-el{
+    margin-top: 20px;
+}
